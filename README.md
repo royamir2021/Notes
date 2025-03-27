@@ -1,9 +1,7 @@
 MySQL Database
 You need to create a MySQL database with a table for storing notes.
 
-sql
-Copy
-Edit
+
 CREATE DATABASE notes_db;
 
 USE notes_db;
