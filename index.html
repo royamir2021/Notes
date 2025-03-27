@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Notes APP</h1>
+               <form id="createForm">
+                <input type="hidden" id="id">
+                <input type="text" id="noteTitle" class="form-control" placeholder="Note Title" required>
+                <textarea id="noteContent" class="form-control mt-3" rows="4" placeholder="Note Content" required></textarea>
+                <button type="submit" class="btn btn-primary mt-3">Add Note</button>
+            </form>
+            <h3 class="mt-5">Notes</h3>
+            <div id="noteList"></div>
+           <script src="script.js"></script>  
+       </div>
+    
+</body>
+</html>
